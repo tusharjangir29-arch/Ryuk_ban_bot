@@ -12,9 +12,9 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(level
 logger = logging.getLogger(__name__)
 
 # ⚠️ REPLACE THE TEXT BELOW WITH YOUR ACTUAL BOT TOKEN (keep the quotes!)
-BOT_TOKEN = "9096711161:AAH0bW1C7xf9G_PdnhLz--l0Y-dcTdYWH4A"
+BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
 
-# Your Channel ID is now hardcoded directly here based on your screenshot
+# ✅ THE CORRECT CHANNEL ID
 CHANNEL_ID = -1003950807710
 
 # --- Telegram Bot Logic ---

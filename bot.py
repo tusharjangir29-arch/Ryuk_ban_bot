@@ -11,8 +11,11 @@ from telegram.ext import (
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.environ.get("9096711161:AAH0bW1C7xf9G_PdnhLz--l0Y-dcTdYWH4A")
-CHANNEL_ID = int(os.environ.get("-1003950807710"))  # e.g., -1001234567890
+# ⚠️ REPLACE THE TEXT BELOW WITH YOUR ACTUAL BOT TOKEN (keep the quotes!)
+BOT_TOKEN = "9096711161:AAH0bW1C7xf9G_PdnhLz--l0Y-dcTdYWH4A"
+
+# Your Channel ID is now hardcoded directly here based on your screenshot
+CHANNEL_ID = -1003095087710
 
 # --- Telegram Bot Logic ---
 async def on_chat_member(update: Update, context: ContextTypes.DEFAULT_TYPE):

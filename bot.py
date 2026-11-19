@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(level
 logger = logging.getLogger(__name__)
 
 # ⚠️ REPLACE THE TEXT BELOW WITH YOUR ACTUAL BOT TOKEN (keep the quotes!)
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
+BOT_TOKEN = "9096711161:AAH0bW1C7xf9G_PdnhLz--l0Y-dcTdYWH4A"
 
 # ✅ THE CORRECT CHANNEL ID
 CHANNEL_ID = -1003950807710
